@@ -1,0 +1,21 @@
+{
+    "name":"Fetch url",
+    "description":"fetch the url of current website",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "icons":{
+        "16":"icon.png",
+        "32":"icon.png",
+        "48":"icon.png"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    }
+}
